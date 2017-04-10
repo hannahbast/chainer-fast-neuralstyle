@@ -4,10 +4,10 @@ deploy:
     install:
     - apt-get update && apt-get install -y python-pip wget libtiff5-dev zlib1g-dev
     - pip install riseml numpy scipy chainer Pillow
-    - wget https://github.com/gafr/chainer-fast-neuralstyle-models/raw/master/models/kanagawa.model
+    - wget https://github.com/gafr/chainer-fast-neuralstyle-models/blob/master/models/hundertwasser.model
   gpu: yes
   run:
-    - python demo.py --model kanagawa.model --gpu 0
+    - python demo.py --model hundertwxasser.model --gpu 0
   input:
     image: image/jpeg
   output:
