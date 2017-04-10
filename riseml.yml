@@ -7,7 +7,7 @@ deploy:
     - wget https://github.com/gafr/chainer-fast-neuralstyle-models/blob/master/models/hundertwasser.model
   gpu: yes
   run:
-    - python demo.py --model hundertwxasser.model --gpu 0
+    - python demo.py --model hundertwasser.model --gpu 0
   input:
     image: image/jpeg
   output:
