@@ -7,7 +7,7 @@ deploy:
     - wget https://github.com/gafr/chainer-fast-neuralstyle-models/raw/master/models/starry.model
   gpu: yes
   run:
-    - python demo.py --model hundertwasser.model --gpu 0
+    - python demo.py --model starry.model --gpu 0
   input:
     image: image/jpeg
   output:
